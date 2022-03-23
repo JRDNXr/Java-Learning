@@ -21,12 +21,22 @@ public class Main_4_2 {
 		LocalDateTime currentDateTime = LocalDateTime.now();
 		System.out.println(currentDateTime); // Output: [current date in yyyy-mm-ddThh:mm:ss:mmmmmm]
 		
-		DateTimeFormatter defaultDateTimeFormat = DateTimeFormatter.ofPattern("MM-dd-yyyy HH:mm:ss");
-		//DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+		// Customizing Date and Time (03-23-2022 12:00:00)
+		DateTimeFormatter defaultDate = DateTimeFormatter.ofPattern("MM-dd-yyyy HH:mm:ss");
+		String newFormattedCurrentDateTime = currentDateTime.format(defaultDate);
+		System.out.println(newFormattedCurrentDateTime); // Output: [current date] [current time]
 		
-		String newFormattedCurrentDateTime = currentDateTime.format(defaultDateTimeFormat);
-
-		System.out.println(newFormattedCurrentDateTime); // Output: [current date in ] [current time]
+		
+		// Customizing Date and Time (Wednesday, March 23, 2022)
+		DateTimeFormatter formatter_fullDate = DateTimeFormatter.ofPattern("EEEE, MMMM dd, yyyy");
+		String fullDate = currentDateTime.format(formatter_fullDate);
+		System.out.println(fullDate);
+		
+		
+		// Customizing Date and Time (
+		DateTimeFormatter formatter_hourMin = DateTimeFormatter.ofPattern("h:mm");
+		String time = currentDateTime.format(formatter_hourMin);
+		System.out.println(fullDate + " at " + time);
 	}
 }
 
