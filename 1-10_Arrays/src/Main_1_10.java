@@ -16,7 +16,7 @@ public class Main_1_10 {
 		
 		// index #:			  0        1         2        3        4        5
 		// Array Range: 0 (inclusive) and 5 (inclusive).
-		// Remember - index numbers count like machines do (starting from 0)
+		// REMEMBER - index numbers count like machines do (starting from 0)
 		
 		// You can also have an array of numbers, like so:
 		
@@ -27,19 +27,46 @@ public class Main_1_10 {
 		// Index numbers are how we refer to each element in our program
 		
 		String favColour = colours[3]; // Try changing this number. If you enter a number outside the array range, you will receive an error
-		System.out.println("Long way of Fav Colour: " + favColour);
+		System.out.println("Long way of Fav Colour: " + favColour); // Output: Green
 		
 		// Or simply:
 		
-		System.out.println("Fav Colour: " + colours[3]);
+		System.out.println("Fav Colour: " + colours[3]); // Output: Green
+		System.out.print("\n");
 		
-		// You can also use a For Loop to output every element in an array:
+		// You can also use a For-Each Loop to output every element in an array:
 		
-		String col "";
-		
-		for (col : colours) {
-			System.out.println(col);
+		// String Array
+		for (String colourPrint : colours) {
+			System.out.println(colourPrint);
 		}
+		
+		System.out.print("\n");
+		
+		// int Array
+		for (int evenNumPrint : evenNum) {
+			System.out.println(evenNumPrint);
+		}
+		
+		System.out.print("\n");
+				
+		// To change or modify an element within an existing array, you can do this:
+		
+		colours[2] = "White";
+				
+		// Notice how there is no curly braces when modifying an element
+		
+		System.out.println(colours[2]); // Output: White
+		
+		// To determine the length of an array, you can use the length() method
+		
+		System.out.println(colours.length); // Output: 6
+		
+		// REMEMBER: Length() starts counting from 1
+		// REMEMBER: You do not place () after length() when determining the length of an array. See below for when you do:
+		
+		String text = "test";
+		System.out.println(text.length()); // Output: 4
 		
 	}
 

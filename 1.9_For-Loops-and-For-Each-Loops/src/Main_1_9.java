@@ -7,6 +7,11 @@ public class Main_1_9 {
 	
 	public static void main(String[] args) {
 		
+		/* TERMINOLOGY: */
+		/*
+		 * Iterate: Go through an entire 
+		 */
+		
 		// Use for loops to loop through your program a certain amount of times.
 		// For loops are highly customizable, and work with conditions operators and Booleans
 		
