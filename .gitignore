@@ -1,6 +1,6 @@
 /.metadata/
-/.settings/
-/.classpath/
-/.gitignore/
-/.project/
-/bin/
+../.settings/
+../.classpath/
+../.gitignore/
+../.project/
+../bin/
