@@ -3,7 +3,7 @@
 // |   MATH CLASS   |
 // |================|
 
-public class Main_3_1 {
+public class Main_4_1 {
 	
 	public static void main(String[] args) {
 		

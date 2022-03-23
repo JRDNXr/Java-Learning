@@ -1,5 +1,6 @@
 RESOURCES:
 
+DateTime Formats: https://help.scribesoft.com/scribe/en/sol/general/datetime.htm
 List of Classes to Import: https://docs.oracle.com/javase/8/docs/api/
 List of String Methods: https://www.w3schools.com/java/java_ref_string.asp
 

@@ -5,7 +5,7 @@
 
 // This is a comment
 
-public class Main_1_1 {
+public class Main_1_0 {
 	
 // Class Name: Main_1_1. This must match the filename (Main_1_1.java)
 // 			   Class names should always be capitalized and have a .java extension
