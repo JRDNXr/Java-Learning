@@ -1,6 +1,6 @@
-// |========================================|
-// |   SWITCH STATEMENTS AND BREAK KEYWORD  |
-// |========================================|
+// |=========================================|
+// |   SWITCH STATEMENTS AND BREAK KEYWORD   |
+// |=========================================|
 
 public class Main_1_7 {
 	
@@ -43,6 +43,7 @@ public class Main_1_7 {
 		// This switch statement has break statements in it
 		// Break statements break away from the code block once it is done executing. You place a break statement at the end of a code block
 		// Placing it before the code block is finished will result in an error
+		// Breaks are used for if and else statements, while loops, do while loops, for loops, and for-each loops
 		//
 		// Now when you enter a number, it will choose ONLY 1 case below and ignore the rest
 		
