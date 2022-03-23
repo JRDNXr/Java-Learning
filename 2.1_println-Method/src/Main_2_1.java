@@ -10,13 +10,15 @@ public class Main_2_1 {
 		// print() and println() are methods
 		// Both accomplish the same task - printing output to the console. The difference here is that print() will print a line, and that's it.
 		// println() will print a line and add a newline (ENTER) at the end. This moves the cursor to a new line
+		//
+		// There is also printf(), which is used to print floating numbers (float and double) to the console IF there is also String text
 		
 		// The following examples of Concatenation
 		
 		int x = 2, y = 3;
 		String result = x + "" + y;
 		
-		String firstName = "JRDN", lastName = "DSouza";
+		String firstName = "JRDN", lastName = "D\'Souza";
 		String fullName = firstName + " " + lastName;
 		// fullName will result in "JRDN DSouza"
 		// You can also declare concatenations
@@ -48,6 +50,9 @@ public class Main_2_1 {
 		System.out.println("EXAMPLE 6: " + x + y);
 		// Console Output: 23
 		// When concatenating strings and integers, the console resorts back to default and concatenates them into one giant string
+		
+		System.out.println("EXAMPLE 7: " + Math.max(5, 10));
+		// You can also minimize (or simplify) your code by running methods and classes within a println statement
 		
 	}
 

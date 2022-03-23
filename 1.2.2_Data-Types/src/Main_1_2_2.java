@@ -39,11 +39,20 @@ public class Main_1_2_2 {
 		// boolean = 1 byte
 		boolean boo = false;
 		
+		// You can use boolean statements in variables and console output
+		int x = 10, y = 20;
+		boolean result = x > y;
+		
+		System.out.println("Is x greater than y?: " + result);
+		System.out.println(10 > 9);
+		System.out.print("Is x equal to 10?: ");
+		System.out.println(x == 10); // Check out "1.5_Operators" for more. You can use a whole bunch with Boolean
+		
 		// char = 2 bytes
 		// Stores a single character, letter, or ASCII value
 		char c = 74;
 		
-		System.out.println(c);
+		System.out.println("ASCII Value 74 is: " + c);
 		
 		
 		
@@ -73,7 +82,8 @@ public class Main_1_2_2 {
 		System.out.print("Double 2: ");
 		System.out.printf("%.0f", d1);
 		
-		// We can use %.2 to indicate how many decimal points we want the output to have. The 2 represents the number of decimal spots
+		// We can use %.2f to indicate how many decimal points we want the output to have. The 2 represents the number of decimal spots. f is always
+		// there
 		// * NOTE: You can also enter 0 to have no decimal spots. This will round the number up or down
 		
 		
