@@ -19,6 +19,7 @@ public class Main_1_2 {
 		*/
 		
 		// It's best practice to declare and initialize variables at the top of a program
+		// Any time you declare a variable, the word you use is called a "Data Type". String, int, etc. are all Data Types
 		
 		String a = "Hello";
 		
