@@ -59,6 +59,7 @@ public class Main_1_10_1 {
 		
 		// In the 2nd for loop, notice the middle section. Using just "teams.length;" will result in 2, and the program will not iterate
 		// through all possible elements
+		
 	}
 
 }

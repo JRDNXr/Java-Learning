@@ -13,7 +13,7 @@ public class Main_1_0 {
 	public static void main(String[] args) {
 
 	// Method: main().
-	// A method is 
+	// A method is a block of code which only runs when it is called
 	// Any code within a main method will be executed. Every program must have a main method
 		
 		System.out.println("Hello, World!");
