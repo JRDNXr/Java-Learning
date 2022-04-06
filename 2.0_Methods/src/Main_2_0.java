@@ -1,4 +1,8 @@
 
+// |=============|
+// |   METHODS   |
+// |=============|
+
 public class Main_2_0 {
 	
 	// A method is a block of code which only runs when it is called 
@@ -20,12 +24,24 @@ public class Main_2_0 {
 	}
 	
 	public static void main(String[] args) {
-	
-		saySomething(); // You can call a method like this. Don't forget the parentheses ()
+		
+		// You can call a method like this. Don't forget the parentheses ()
+		
+		saySomething(); // Output: Hello, World!.. from a Method!
+		
 		
 		// You can also call a method multiple times
 		
-		anotherStatement();
-		anotherStatement();
+		anotherStatement(); // Output: This is a test
+		anotherStatement(); // Output: This is a test
+		
+		// In Java, it's best to place methods ABOVE the main method. However, you can also place them below it
+		// Calling it works the exact same
+		
+		finalExample(); // Output: You can reach code here too
+	}
+	
+	static void finalExample() {
+		System.out.println("You can reach code here too");
 	}
 }
