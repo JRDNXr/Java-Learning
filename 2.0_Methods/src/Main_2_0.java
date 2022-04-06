@@ -13,7 +13,7 @@ public class Main_2_0 {
 	
 	// Methods are used to reuse code. Write once, reuse multiple times
 
-	// For now, ignore static and void. You will learn those later on.
+	// For now, ignore static and void
 	
 	static void saySomething() {
 		System.out.println("Hello, World!.. from a Method!");
