@@ -17,7 +17,7 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 	
 	 Think of it like this. Everything in Java is associated with classes and objects, along with its attributes and methods.
 	  
-	 For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods,
+	 For example: in real life, a car is an object. The car has attributes, such as weight and color. It also has methods,
 	 such as drive and brake.
 	 
 	 A Class is like an object constructor, or a "blueprint" for creating objects.
