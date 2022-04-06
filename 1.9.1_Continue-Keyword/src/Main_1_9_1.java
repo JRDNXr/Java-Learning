@@ -14,9 +14,11 @@ public class Main_1_9_1 {
 			if (i == 4) { // When i hits 4, it comes here
 				System.out.print("\n");
 				continue; // This acts like a break statement. The if statement executes its scope code, hits continue, which
-						  // ignores everything else beneath i (just like break) and goes back into the for loop
+						  // ignores everything else beneath it (just like break) and goes back into the for loop
 			}
 			
+			// Remember, continue and break are ONLY for loops. If and else is NOT a loop. The keywords here are breaking out of the for loop
+			// (if there's no loop, the program exits)
 			System.out.println(i);
 		}
 		

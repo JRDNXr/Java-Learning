@@ -3,7 +3,9 @@
 // |   CLASSES AND OBJECTS   |
 // |=========================|
 
-public class Main_3_0 {
+public class Main_3_0 { // This is how we create classes (you'll learn about public later)
+	
+	// At minimum the top class must match the name of the Java file
 	
 	/*
 	 
@@ -20,18 +22,29 @@ public class Main_3_0 {
 	 
 	 A Class is like an object constructor, or a "blueprint" for creating objects.
 	 
+	 ** NOTE ** Class name first letter should always be capitalized
+	 
     */
 	
-//	public class Car { // This is how we create classes (you'll learn about public later)
+	int cost = 30000; // While "cost" is known as a variable, it also has another name given its usage - attribute
 	
-	String colour = "Blue";
-	int cost = 30000;
+	// Attributes are variables within a class
+	// Attributes are also called Class Attributes or Fields
 	
 	public static void main(String[] args) {
 		
-		Main_3_0 newCar = new Main_3_0();
+		// You can call objects from classes anywhere. Below is how we call an object from a class (the data ("cost") is contained within this file
+		// but not within this block scope)
+		Main_3_0 anObject = new Main_3_0(); // This piece of code creates a new object of a class
 		
-		System.out.println(newCar.cost);
+		System.out.println(anObject.cost); // Output: 30000
+		
+		
+		
+		// You'll notice below that the approach is the same way as above, only this time the data ("colour") is in a completely different file
+		Car newCar = new Car();
+
+		System.out.println(newCar.colour); // Output: Red
 		
 	}
 
