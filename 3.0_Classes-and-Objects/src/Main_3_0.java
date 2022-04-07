@@ -26,8 +26,9 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 	 
     */
 	
+	int num;
+	int num2 = 99;
 	int cost = 30000; // While "cost" is known as a variable, it also has another name given its usage - attribute
-	
 	// Attributes are variables within a class
 	// Attributes are also called Class Attributes or Fields
 	
@@ -51,6 +52,17 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 		Car newCar2 = new Car();
 		
 		System.out.println("2nd Object: " + newCar2.colour); // Output: Red
+		
+		// We can modify and override attribute values
+		
+		// MODIFYING ATTRIBUTE VALUE 
+		anObject.num = 10;
+		System.out.println(anObject.num); // Output: 10
+		
+		
+		// OVERRIDING ATTRIBUTE VALUE
+		anObject.num2 = 90;
+		System.out.println(anObject.num2); // Output: 90
 	}
 
 }
