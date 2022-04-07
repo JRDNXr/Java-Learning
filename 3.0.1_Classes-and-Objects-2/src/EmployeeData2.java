@@ -6,5 +6,5 @@
 public class EmployeeData2 {
 
 	String systemRole = "Admin";
-	
+
 }
