@@ -35,9 +35,9 @@ public class Main_3_0_1 {
 		EmployeeData2 object1 = new EmployeeData2();
 		EmployeeData2 object2 = new EmployeeData2();
 		
-		// When the objects above are created, they "inherit" all of the variables and methods at that time
-		// So when we modify or override an attribute value, it ONLY affects that particular object
-		// This is why the attribute "systemRole" can have two different values 
+		// When the objects above are created, they "inherit" all of the variables and methods at that time.
+		// So when we modify or override an attribute value, it ONLY affects that particular object.
+		// This is why the attribute "systemRole" can have two different values.
 		
 		object1.systemRole = "Junior Programmer";
 		object2.systemRole = "Senior Programmer";
@@ -45,7 +45,7 @@ public class Main_3_0_1 {
 		System.out.println("Object 2: " + object2.systemRole);
 		System.out.println("Object 1: " + object1.systemRole);
 		
-		// The above code has been reversed in order to remove the idea of systematic compiling
+		// The above code has been reversed in order to remove the idea of systematic compiling.
 
 	}
 

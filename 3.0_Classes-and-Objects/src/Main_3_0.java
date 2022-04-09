@@ -16,7 +16,7 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 	 When the individual objects are created, they inherit all the variables and methods from the class.
 	
 	 Think of it like this. Everything in Java is associated with classes and objects, along with its attributes and methods.
-	  
+
 	 For example: in real life, a car is an object. The car has attributes, such as weight and color. It also has methods,
 	 such as drive and brake.
 	 
@@ -31,6 +31,7 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 	int cost = 30000; // While "cost" is known as a variable, it also has another name given its usage - attribute
 	// Attributes are variables within a class
 	// Attributes are also called Class Attributes or Fields
+	// Attributes / Class attributes are most commonly found outside of methods
 	
 	public static void main(String[] args) {
 		
