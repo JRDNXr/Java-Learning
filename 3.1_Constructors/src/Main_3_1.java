@@ -7,6 +7,8 @@ public class Main_3_1 {
 	
 	int num; // We declare a int named num here
 	
+	String testString = "JRDN";
+	
 	public Main_3_1() {
 		num = 5; // Here we initialize the int named num to 5
 	}
@@ -25,11 +27,15 @@ public class Main_3_1 {
 		// ** NOTES **
 		//		1. Constructors must match the class name
 		// 		2. Constructors cannot have a void keyword
-
-		// We can also pass parameters, like below:
 		
-		Part2 object2 = new Part2("JRDN", "DSouza", 3456);
-		System.out.println(object2.fName + " " + object2.lName + " " + object2.empNum);
+		// System.out.println(testString);
+		
+		// Uncomment the code above. You will receive an error.
+		// This is because it cannot make a static reference to a non-static field. What this means is, attributes / class attributes / fields
+		// can DECLARE and INITIALIZE variables. However, one of the options below must also happen:
+		//		1. The data type MUST be prefaced with static
+		//		2. A method or constructor initializes the variable
+		//		3. An object is created within the class, and through the object, the variable is accessed
 		
 	}
 }

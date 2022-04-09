@@ -35,8 +35,9 @@ public class Main_2_0 {
 		anotherStatement(); // Output: This is a test
 		anotherStatement(); // Output: This is a test
 		
-		// In Java, it's best to place methods ABOVE the main method. However, you can also place them below it
-		// Calling it works the exact same
+		// In Java, it's best to place methods ABOVE the main method. However, you can also place them below it.
+		// Keep in mind that the method MUST be static in order for it to work below the main method.
+		// Calling it works the exact same:
 		
 		finalExample(); // Output: You can reach code here too
 	}

@@ -1,4 +1,8 @@
 
+// |===================|
+// |   CONSTRUCTORS 2  |
+// |===================|
+
 public class Main_3_1_1 {
 	
 	// We declare these variables here for the entire class
