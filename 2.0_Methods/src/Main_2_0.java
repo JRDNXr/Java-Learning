@@ -48,7 +48,7 @@ public class Main_2_0 {
 	
 	/* ** NOTES **
 	 
-		These notes will go over all different types of method names and keywords that you may see within a Java file.
+		These notes will go over all different types of method and class names and keywords that you may see within a Java file.
 		Many of these are talked about in their own tutorials. Refer to them for more information.
 		
 			>> class		- class Test { }					- An alternative to creating another Java file. You can use this to keep all of your

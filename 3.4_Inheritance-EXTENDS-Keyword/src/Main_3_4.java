@@ -1,9 +1,9 @@
 
-// |===================================================|
-// |   INHERITANCE AND POLYMORPHISM (EXTENDS KEYWORD)  |
-// |===================================================|
+// |===================================|
+// |   INHERITANCE (EXTENDS KEYWORD)   |
+// |===================================|
 
-public class Main_3_3 extends Vehicle {
+public class Main_3_4 extends Vehicle {
 	
 	// We use the extends keyword to "inherit" the attributes and methods from the class "Vehicle".
 	
@@ -47,7 +47,7 @@ public class Main_3_3 extends Vehicle {
 		
 		
 		// Here is how we can do it using Inheritance:
-		Main_3_3 car = new Main_3_3();
+		Main_3_4 car = new Main_3_4();
 		
 		car.honkSound(); // Output: HONK!
 		

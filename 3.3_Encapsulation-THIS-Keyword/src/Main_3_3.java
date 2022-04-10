@@ -1,9 +1,9 @@
 
-// |===================|
-// |   ENCAPSULATION   |
-// |===================|
+// |==================================|
+// |   ENCAPSULATION (THIS KEYWORD)   |
+// |==================================|
 
-public class Main_3_2_2_1 {
+public class Main_3_3 {
 
 	// The meaning of Encapsulation is to make sure that "sensitive" data is hidden from users.
 	// This means making variables and attributes "private".
@@ -26,7 +26,7 @@ public class Main_3_2_2_1 {
 		// These lines of code will generate an error.
 		// This is because our class attribute "name" is set to private. This means that it can only be read within the declared class.
 		
-		Main_3_2_2_1 object1 = new Main_3_2_2_1();
+		Main_3_3 object1 = new Main_3_3();
 		object1.setName("JRDN");
 		
 		System.out.println("First Name: " + object1.getName()); // Output: First Name: JRDN
