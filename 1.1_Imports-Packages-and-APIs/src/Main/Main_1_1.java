@@ -39,7 +39,7 @@ public class Main_1_1 {
 			attributes), or a whole package that contain all the classes that belong to the specified package.
 		
 			import package.name.Class;   // Import a single class
-			import package.name.*;   	// Import the whole package
+			import package.name.*;   	 // Import the whole package (use an asterisk (*) to select all in a package)
 		
 			You will learn more about the Scanner class later.
 		 */
