@@ -24,13 +24,14 @@ public class Main_1_1 {
 		  	The Java API is a library of pre-written classes, that are free to use, included in the Java Development Environment (JDE).
 		  	
 		  	** NOTE **
-		  	* JDE stands for Java Development Environment.
-		  	* 
-		  	* JDK stands for Java Developer Kit. 
+		  	*
+		  	* JDK stands for Java Developer Kit. It is any software development environment used to develop Java applications. This includes the JRE.
 		  	* 
 		  	* JRE stands for Java Runtime Environment. JRE consists of JVM, Java Libraries, and all other components required to run Java.
 		  	* 
-		  	* JVM stands for Java Virtual Machine. Enables a computer to run Java programs. Eg. macOS
+		  	* JVM stands for Java Virtual Machine. It is responsible for loading the Java class files into memory and execution.
+		  	* 
+		  	* JDE stands for Java Development Environment. This is exactly like JDK, except comparable in power consumption. 
 		  	* 
 		  	* IDE stands for Integrated Developer Environment. This means any application cable of running a programming language. Eg. Eclipse.
 		

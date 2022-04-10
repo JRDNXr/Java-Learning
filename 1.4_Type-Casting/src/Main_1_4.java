@@ -24,8 +24,8 @@ public class Main_1_4 {
 		int num1 = 9;
 		
 		double num1_double = num1; // Wide casting (up size) is done automatically
-		System.out.println("Int 1: " + num1); // Outputs 9
-		System.out.println("Double 1: " + num1_double); // Outputs 9.0
+		System.out.println("Int 1: " + num1); // Output: Int 1: 9
+		System.out.println("Double 1: " + num1_double); // Output: Duoble 1: 9.0
 		
 		
 		///////////////////////
@@ -35,8 +35,8 @@ public class Main_1_4 {
 		double num2 = 9.78d;
 		
 		int num2_int = (int) num2; // We must manually narrow cast (down size) the double value into an int value
-		System.out.println("Double 2: " + num2); // Outputs 9.78
-		System.out.println("Int 2: " + num2_int); // Outputs 9
+		System.out.println("Double 2: " + num2); // Output: Double 2: 9.78
+		System.out.println("Int 2: " + num2_int); // Output: Int 2: 9
 		
 	}
 

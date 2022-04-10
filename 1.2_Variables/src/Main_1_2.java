@@ -6,8 +6,8 @@
 public class Main_1_2 {
 
 	public static void main(String[] args) {
-		/* TERMINOLOGY: */
-		/*   - Declaration: Tells the compiler about the existence of an entity
+		/* ** NOTES **
+			 - Declaration: Tells the compiler about the existence of an entity
 		     - Initialization: Assigning a value to a variable
 		     - Identifiers: Variable names such as a, b or more descriptive such as firstName and lastName
 		     		>> Names can contain letters, digits, underscores, and dollar signs
@@ -19,7 +19,7 @@ public class Main_1_2 {
 		*/
 		
 		// It's best practice to declare and initialize variables at the top of a program
-		// Any time you declare a variable, the word you use is called a "Data Type". String, int, etc. are all Data Types
+		// Any time you declare a variable, you start by using a "Data Type". String, int, etc. are all Data Types
 		
 		String a = "Hello";
 		
@@ -51,12 +51,12 @@ public class Main_1_2 {
 		// Final variables cannot be changed (they are "final")
 		// Also known as unchangeable and read-only variables
 		
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
-		System.out.println(d);
-		System.out.println(e);
-		System.out.println(j);
+		System.out.println(a); // Output: Hello
+		System.out.println(b); // Output: 2
+		System.out.println(c); // Output: 5.99
+		System.out.println(d); // Output: A
+		System.out.println(e); // Output: true
+		System.out.println(j); // Output: JRDN
 	}
 	
 }

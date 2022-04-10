@@ -10,9 +10,9 @@ public class Main_3_0_1 {
 		// Employee Data Example
 		EmployeeData empData = new EmployeeData();
 		
-		System.out.println(empData.firstName);
-		System.out.println(empData.lastName);
-		System.out.println(empData.empNumber);
+		System.out.println(empData.firstName); // Output: JRDN
+		System.out.println(empData.lastName); // Output: DSouza
+		System.out.println(empData.empNumber); // Output: 4567
 
 		
 		// We can modify and override an attribute value from another class
@@ -23,7 +23,7 @@ public class Main_3_0_1 {
 		empData.empNumber = newEmpNum;
 		
 		System.out.print("\n");		
-		System.out.println("New Employee Number: " + empData.empNumber);
+		System.out.println("New Employee Number: " + empData.empNumber); // Output: New Employee Number: 9999
 		
 		
 		
@@ -42,8 +42,8 @@ public class Main_3_0_1 {
 		object1.systemRole = "Junior Programmer";
 		object2.systemRole = "Senior Programmer";
 		
-		System.out.println("Object 2: " + object2.systemRole);
-		System.out.println("Object 1: " + object1.systemRole);
+		System.out.println("Object 2: " + object2.systemRole); // Output: Object 2: Senior Programmer
+		System.out.println("Object 1: " + object1.systemRole); // Output: Object 1: Junior Programmer
 		
 		// The above code has been reversed in order to remove the idea of systematic compiling.
 

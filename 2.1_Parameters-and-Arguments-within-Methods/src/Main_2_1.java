@@ -21,13 +21,13 @@ public class Main_2_1 {
 	
 	public static void main(String[] args) {
 		
-		printName("JRDN", "DSouza"); // Output: JRDN D'Souza
+		printName("JRDN", "DSouza"); // Output [1]: JRDN D'Souza
 		
 		// The Strings "JRDN" and "DSouza" are known as arguments
 		
 		// Arguments are values that are passed to a method
 		
-		printEmployeeData("JRDN", 4523); // Output: JRDN: 4523
+		printEmployeeData("JRDN", 4523); // Output [2]: JRDN: 4523
 	}
 	
 }

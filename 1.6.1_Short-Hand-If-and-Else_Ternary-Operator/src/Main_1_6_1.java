@@ -15,7 +15,7 @@ public class Main_1_6_1 {
 		if (time < 18) {
 		  System.out.println("Good day.");
 		} else {
-		  System.out.println("Good evening.");
+		  System.out.println("Good evening."); // Output: Good evening.
 		}
 
 		// We can modify this into a Ternary Operator
@@ -29,7 +29,7 @@ public class Main_1_6_1 {
 		// [condition 1] : [condition 2]	-	On the left is condition 1, and on the right is condition 2. The colon is used to separate the
 		// 										conditions
 		
-		System.out.println(result);
+		System.out.println(result); // Output: Good evening.
 		
 	}
 

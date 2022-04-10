@@ -19,6 +19,13 @@ public class Main_1_8 {
 				break;
 			} else {
 				System.out.println(count);
+				
+				// Output: 0
+				//		   1
+				//		   2
+				//		   3
+				//		   4
+				
 				count++;
 			}
 		}
@@ -29,6 +36,13 @@ public class Main_1_8 {
 		// You can simplify the first while loop with this one:
 		while(count < 5) {
 			System.out.println(count);
+			
+			// Output: 0
+			//		   1
+			//		   2
+			//		   3
+			//		   4
+			
 			count++;
 		}
 		
@@ -46,6 +60,9 @@ public class Main_1_8 {
 		
 		do {
 			System.out.println("You will only see this statement twice");
+			
+			// Output: You will only see this statement twice 
+			// 		   You will only see this statement twice
 			count++;
 		}
 		while (count < 2);

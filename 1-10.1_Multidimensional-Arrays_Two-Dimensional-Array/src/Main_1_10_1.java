@@ -38,15 +38,15 @@ public class Main_1_10_1 {
 		// We can also find out the length of a multidimensional array
 		// Keep in mind that this length refers to the "Array Number" of a multidimensional array
 		// Also remember that length counts like humans do, which is why you'll see +1 added to the final number in an Array Number
-		System.out.println("Length of Entire Multidimensional Array (Array Number): " + teams.length); // Output: 2
+		System.out.println("Length of Entire Multidimensional Array (Array Number): " + teams.length); // Output: Length of Entire Multidimensional Array (Array Number): 2
 		
 		// The above length calculated the Array Number + 1 of the Multidimensional Array
 		
 		// The below lengths calculate the number of elements within an Array Number (again, because it's length, always add +1 to your
 		// final result)
 		// This is crucial to understanding how to iterate through multidimensional arrays
-		System.out.println("Length of Array 1: " + teams[0].length); // Output: 3
-		System.out.println("Length of Array 2: " + teams[1].length); // Output: 3
+		System.out.println("Length of Array 1: " + teams[0].length); // Output: Length of Array 1: 3
+		System.out.println("Length of Array 2: " + teams[1].length); // Output: Length of Array 2: 4
 		System.out.print("\n");
 		
 		// We can also iterate (go through) every element in a multidimensional array
@@ -54,6 +54,15 @@ public class Main_1_10_1 {
 		for (int countI = 0; countI < teams.length; ++countI) {
 			for (int countJ = 0; countJ < teams[countI].length; ++countJ) { 
 				System.out.println(teams[countI][countJ]);
+				
+				// Output: Red
+				//		   Green
+				//		   Blue
+				//		   3
+				//		   5
+				//		   4
+				//		   7
+				
 			}
 		}
 		

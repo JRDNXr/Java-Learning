@@ -13,7 +13,7 @@ public class Main_2_6_5 {
 		String lastName = "D'Souza";
 		
 		// System.out.println(firstName.concat(lastName)); This is an alternative way. You can add whitespace using the method below
-		System.out.println(firstName.concat(" " + lastName)); //Outputs: JRDN D'Souza
+		System.out.println(firstName.concat(" " + lastName)); // Output: JRDN D'Souza
 		
 		
 	}

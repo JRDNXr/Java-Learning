@@ -11,7 +11,7 @@ public class Main_2_6_2 {
 		
 		String line = "This is a line of text"; // 22 characters
 		
-		System.out.println(line.length());
+		System.out.println(line.length()); // Output: 22
 		
 		// The length method counts like humans do (by starting from 1)
 		

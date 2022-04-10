@@ -14,7 +14,7 @@ public class Main_3_1_1 {
 	// firstName with the value "JRDN". You can see this from Line 13 when it writes it to the console
 	public Main_3_1_1(String firstName, String lastName, int empNumber) {
 		
-		System.out.println("Constructor: " + firstName + " " + lastName + " " + empNumber);
+		System.out.println("Constructor: " + firstName + " " + lastName + " " + empNumber); // Output: Constructor: JRDN DSouza 3456
 
 		// Since the variables firstName, lastName, and empNumber are limited to THIS scope, we must initialize (or copy their values) into a variable
 		// that can be read by everything in this class
@@ -31,7 +31,7 @@ public class Main_3_1_1 {
 		
 		Main_3_1_1 object1 = new Main_3_1_1("JRDN", "DSouza", 3456); // Creates an object. When an object is created, it calls a constructor
 		
-		System.out.println("Main: " + object1.fName + " " + object1.lName + " " + object1.empNum);
+		System.out.println("Main: " + object1.fName + " " + object1.lName + " " + object1.empNum); // Output: Main: JRDN DSouza 3456
 	}
 
 }

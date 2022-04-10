@@ -7,28 +7,34 @@ public class Main_1_9 {
 	
 	public static void main(String[] args) {
 		
-		/* TERMINOLOGY: */
-		/*
-		 * Iterate: Go through an entire 
+		/* ** NOTES **:
+			Iterate: Go through an entire cycle.
+		
+			Use for loops to loop through your program a certain amount of times.
+			
+			For loops are highly customizable, and work with conditions operators and Booleans
+		
+		 	for (Statement 1, Statement 2, Statement 3) {
+				code
+		 	}
+		
+		 	Statement 1 is executed (one time) before the execution of the code block.
+		 
+		 	Statement 2 defines the condition for executing the code block.
+		 
+			Statement 3 is executed (every time) after the code block has been executed.
 		 */
-		
-		// Use for loops to loop through your program a certain amount of times.
-		// For loops are highly customizable, and work with conditions operators and Booleans
-		
-		// for (Statement 1, Statement 2, Statement 3) {
-		//		code
-		// }
-		//
-		// Statement 1 is executed (one time) before the execution of the code block.
-		// 
-		// Statement 2 defines the condition for executing the code block.
-		// 
-		// Statement 3 is executed (every time) after the code block has been executed.
 		
 		int i = 0;
 		
 		for (i = 0; i < 5; i++) {
 			System.out.println(i);
+			
+			// Output: 0
+			// 		   1
+			// 		   2
+			// 		   3
+			// 		   4
 		}
 		
 		System.out.print("\n");
@@ -46,6 +52,11 @@ public class Main_1_9 {
 		
 		for (String str : cars) {
 			System.out.println(str);
+			
+			// Output: Volvo
+			// 		   BMW
+			// 		   Ford
+			// 		   Mazda
 		}
 		
 		// Essentially, the "str : cars" is acting like this: str <-- cars.
@@ -58,6 +69,11 @@ public class Main_1_9 {
 		// This is an alternative method to the one above. The one above is still the recommended version
 		for (i = 0; i < cars.length; i++) {
 			System.out.println(cars[i]);
+			
+			// Output: Volvo
+			// 		   BMW
+			// 		   Ford
+			// 		   Mazda
 		}
 
 	}

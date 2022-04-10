@@ -15,17 +15,17 @@ public class Main_1_6 {
 			System.out.println("Your number is 1!");
 			
 		} else {
-			System.out.println("Your number is " + count + ".");
+			System.out.println("Your number is " + count + "."); // Output: Your number is 1!
 		}
 		
 		/* 
-		 *  There are lots of Comparison Operators you could use in an if statement. Below are all of them:
-		 * 		==	Equal to
-		 *		!=	Not equal to
-		 *		>	Greater than
-		 *		<	Less than
-		 *		>=	Greater than or equal to
-		 *		<=	Less than or equal to
+			There are lots of Comparison Operators you could use in an if statement. Below are all of them:
+		  		>> 	==	Equal to
+		 		>>	!=	Not equal to
+		 		>>	>	Greater than
+		 		>>	<	Less than
+		 		>>	>=	Greater than or equal to
+		 		>>	<=	Less than or equal to
 		 */
 		
 		
@@ -43,7 +43,7 @@ public class Main_1_6 {
 			System.out.println("You got the WRONG number :(");
 		}
 		else if (count == 10) {
-			System.out.println("You got the RIGHT number! Congratulations! :D");
+			System.out.println("You got the RIGHT number! Congratulations! :D"); // Output: You got the RIGHT number! Congratulations! :D
 		}
 		else {
 			System.out.println("Something's not right here... You have a different number.");
@@ -62,7 +62,7 @@ public class Main_1_6 {
 			System.out.println("This will never, ever happen.");
 		}
 		else {
-			System.out.println("PERFECT!");
+			System.out.println("PERFECT!"); // Output: PERFECT!
 		}
 	}
 

@@ -25,14 +25,12 @@ public class Main_4_1 {
 		// Essentially, it means the generator will choose a number randomly between 0 (inclusive) and [number] exclusive
 		int randomNum = (int)(Math.random() * 11);
 		
-		System.out.println("Which is higher, 10 or 100?: " + highNum);
-		System.out.println("Which is lower, 40 or 80?: " + lowNum);	
-		System.out.printf("The Square Root of 25 is " + "%.0f", sqRoot);
+		System.out.println("Which is higher, 10 or 100?: " + highNum); // Output: Which is higher, 10 or 100?: 100
+		System.out.println("Which is lower, 40 or 80?: " + lowNum);	 // Output: Which is lower, 40 or 80?: 40
+		System.out.printf("The Square Root of 25 is " + "%.0f", sqRoot); // Output: The Square Root of 25 is 5
 		System.out.print("\n");
-		System.out.println("The postive version of \"-30\" is: " + absolute);
-		System.out.println("Random number between 0 - 10 (inclusive): " + Math.random());
-		
-		
+		System.out.println("The positive version of \"-30\" is: " + absolute); // Output: The positive version of \"-30\" is: 30
+		System.out.println("Random number between 0 - 10 (inclusive): " + Math.random()); // Output: Random number between 0 - 10 (inclusive): [random number]	
 		
 	}
 

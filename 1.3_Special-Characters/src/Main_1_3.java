@@ -14,9 +14,9 @@ public class Main_1_3 {
 		String doubleQuote = "Example: \"";
 		String backslash = "Example: \\";
 		
-		System.out.println(singleQuote);
-		System.out.println(doubleQuote);
-		System.out.println(backslash);
+		System.out.println(singleQuote); // Output: Example: '
+		System.out.println(doubleQuote); // Output: Example: "
+		System.out.println(backslash); // Output: Example: \
 		
 		
 		
@@ -28,10 +28,12 @@ public class Main_1_3 {
 		// that has a special meaning
 		
 		// \n adds a newline
-		String newLine = "Hello, \nWorld!";
+		String newLine = "Hello, \nWorld!"; // Output: Hello,
+											// 		   World!
 		
 		// \r adds a carriage return
-		String carriage = "Hello, \rWorld!";
+		String carriage = "Hello, \rWorld!"; // Output: Hello,
+											 //			World!
 		
 		// \t adds a new tab
 		String tab = "Hello, \tWorld!";
@@ -39,12 +41,20 @@ public class Main_1_3 {
 		// \b adds a backspace
 		String backspace = "Hello, W\borld!";
 		
-		// \f adds a form feed (NO INFO)
+		System.out.print("\n");
 		
-		System.out.println(newLine);
-		System.out.println(carriage);
-		System.out.println(tab);
-		System.out.println(backspace);
+		// \f adds a form feed (NO INFO)
+		System.out.println(newLine); // Output: Hello,
+									 // 		World!
+		System.out.print("\n");
+		System.out.println(carriage); // Output: Hello,
+									  // 		 World!
+		
+		System.out.print("\n");
+		System.out.println(tab); // Output: Hello,  World!
+		
+		System.out.print("\n");
+		System.out.println(backspace); // Output: Hello, World!
 	}
 
 }

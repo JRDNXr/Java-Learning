@@ -13,6 +13,18 @@ public class Main_1_9_1 {
 			
 			if (i == 4) { // When i hits 4, it comes here
 				System.out.print("\n");
+				
+				// Output: 0
+				//		   1
+				//		   2
+				//		   3
+				//
+				//		   5
+				//		   6
+				//		   7
+				//		   8
+				//		   9
+	
 				continue; // This acts like a break statement. The if statement executes its scope code, hits continue, which
 						  // ignores everything else beneath it (just like break) and goes back into the for loop
 			}

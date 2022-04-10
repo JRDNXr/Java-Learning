@@ -22,7 +22,7 @@ public class Main_3_1 {
 		// Constructors are called just like objects are.
 		// Remember that when an object is created, it "inherits" all of the attribute values.
 		
-		System.out.println(object1.num);
+		System.out.println(object1.num); // Output: 5
 		
 		// ** NOTES **
 		//		1. Constructors must match the class name

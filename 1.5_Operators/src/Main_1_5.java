@@ -8,8 +8,7 @@ public class Main_1_5 {
 	public static void main(String[] args) {
 		
 		/*
-			Arithmetic Operators:
-			
+			ARITHMETIC OPERATORS
 				+	Addition		x + y
 				-	Subtraction		x - y
 				*	Multiplication	x * y
@@ -18,9 +17,7 @@ public class Main_1_5 {
 				++	Increment		++x
 				--	Decrement		--x
 		
-		
-			Assignment Operators:
-			
+			ASSIGNMENT OPERATORS:	
 				=	Assign a value
 				+=
 				-=
@@ -32,10 +29,8 @@ public class Main_1_5 {
 				^=
 				>>=
 				<<=
-				
-				
-			Comparison Operators:
-			
+					
+			COMPARISON OPERATORS:
 				==	Equal to
 				!=	Not equal to
 				>	Greater than
@@ -44,8 +39,7 @@ public class Main_1_5 {
 				<=	Less than or equal to
 				
 				
-			Logical Operators:
-			
+			LOGICAL OPERATORS:
 				&&	Logical and
 				||	Logical or
 				!	Logical not

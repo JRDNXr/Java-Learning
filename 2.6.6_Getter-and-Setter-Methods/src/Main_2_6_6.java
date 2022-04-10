@@ -20,7 +20,7 @@ public class Main_2_6_6 {
 	public void setColour(String newColour) {
 		this.colour = newColour;
 	
-		System.out.println("COL" + colour);
+		System.out.println("COL" + colour); // Output: COLGreen
 		// A setter takes a parameter (newColour) and assigns it to the Class Attribute "colour".
 		// We use the "this" keyword to refer to the current object.
 		
@@ -39,7 +39,7 @@ public class Main_2_6_6 {
 		Main_2_6_6 objectColour = new Main_2_6_6();
 		
 		objectColour.setColour("Green");
-		System.out.println("Chosen Colour: " + objectColour.getColour());
+		System.out.println("Chosen Colour: " + objectColour.getColour()); // Output: Chosen Colour: Green
 		
 	}
 }

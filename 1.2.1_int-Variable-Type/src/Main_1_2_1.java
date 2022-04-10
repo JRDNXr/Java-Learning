@@ -18,11 +18,11 @@ public class Main_1_2_1 {
 		// x = y | y = z | z = 3. Which means x = 3
 		
 		// System.out.println(w);   |  Without initialization, this line will output an error
-		System.out.println("Value of z: " + z);
+		System.out.println("Value of z: " + z); // Output: Value of z: 3
 		
 		// Lets change the value of z
 		z = 5;
-		System.out.println("Value of x: " + x);
+		System.out.println("Value of x: " + x); // Output: Value of x: 3
 		
 		// You'll notice that x still evaluates to 3. Looking back on Line 10, x = z which was equal to 3. Therefore making x = 3
 		// The program finished processing that line, and moves towards the next

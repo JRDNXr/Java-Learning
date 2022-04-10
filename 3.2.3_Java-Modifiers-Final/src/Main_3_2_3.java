@@ -9,7 +9,7 @@ public class Main_3_2_3 {
 		
 		final double pi = 3.14;
 		
-		System.out.println(pi);
+		System.out.println(pi); // Output: 3.14
 		// pi = 20.43;
 		
 		// If you uncomment the above line, you will receive an error.

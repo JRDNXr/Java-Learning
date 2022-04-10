@@ -16,11 +16,11 @@ public class Main_2_0 {
 	// For now, ignore static and void
 	
 	static void saySomething() {
-		System.out.println("Hello, World!.. from a Method!");
+		System.out.println("Hello, World!.. from a Method!"); // Output [1]: Hello, World!.. from a Method!
 	}
 	
 	static void anotherStatement() {
-		System.out.println("This is a test");
+		System.out.println("This is a test"); // Output [2] & [3]: This is a test
 	}
 	
 	public static void main(String[] args) {
@@ -43,6 +43,6 @@ public class Main_2_0 {
 	}
 	
 	static void finalExample() {
-		System.out.println("You can reach code here too");
+		System.out.println("You can reach code here too"); // Output [4]: You can reach code here too
 	}
 }

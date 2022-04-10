@@ -30,13 +30,13 @@ public class Main_4_2 {
 		// Customizing Date and Time (Wednesday, March 23, 2022)
 		DateTimeFormatter formatter_fullDate = DateTimeFormatter.ofPattern("EEEE, MMMM dd, yyyy");
 		String fullDate = currentDateTime.format(formatter_fullDate);
-		System.out.println(fullDate);
+		System.out.println(fullDate); // Output: [day of the week, month dayNumber, year] 
 		
 		
 		// Customizing Date and Time (
 		DateTimeFormatter formatter_hourMin = DateTimeFormatter.ofPattern("h:mm");
 		String time = currentDateTime.format(formatter_hourMin);
-		System.out.println(fullDate + " at " + time);
+		System.out.println(fullDate + " at " + time); // Output: [day of the week, month dayNumber, year] at [current time]
 	}
 }
 

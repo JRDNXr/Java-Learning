@@ -23,13 +23,17 @@ public class Main_3_0_1 {
 		Thiya_Car.colour = "Silver";
 		Thiya_Car.value = 750000;
 		
-		System.out.println("JRDN's Car: " + JRDN_Car.company);
+		System.out.println("JRDN's Car: " + JRDN_Car.company); // Output: JRDN's Car: Audi
+															   // 					  Lime Green
+															   // 					  $500000
 		System.out.println("\t    " + JRDN_Car.colour);
 		System.out.println("\t    $" + JRDN_Car.value);
 		
 		System.out.print("\n");
 		
-		System.out.println("Thiya's Car: " + Thiya_Car.company);
+		System.out.println("Thiya's Car: " + Thiya_Car.company); // Output: Mercedes-Benz
+															     //			Silver
+															     // 		$750000
 		System.out.println("\t     " + Thiya_Car.colour);
 		System.out.println("\t     $" + Thiya_Car.value);
 		

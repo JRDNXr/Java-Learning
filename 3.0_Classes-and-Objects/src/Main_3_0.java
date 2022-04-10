@@ -46,13 +46,13 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 		// You'll notice below that the approach is the same way as above, only this time the data ("colour") is in a completely different file
 		Car newCar = new Car();
 
-		System.out.println("1st Object: " + newCar.colour); // Output: Red
+		System.out.println("1st Object: " + newCar.colour); // Output: 1st Object: Red
 		
 		// You can also create multiple objects of the same class:
 		
 		Car newCar2 = new Car();
 		
-		System.out.println("2nd Object: " + newCar2.colour); // Output: Red
+		System.out.println("2nd Object: " + newCar2.colour); // Output: 2nd Object: Red
 		
 		// We can modify and override attribute values
 		

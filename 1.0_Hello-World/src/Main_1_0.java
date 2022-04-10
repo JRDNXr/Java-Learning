@@ -14,28 +14,28 @@ public class Main_1_0 {
 
 	// Method: main().
 	// A method is a block of code which only runs when it is called
-	// Any code within a main method will be executed. Every program must have a main method
+	// Any code within a main method will be executed
+	// Every program must have a main method. Every program must have only ONE main method (JVM will only run from one main anyways)
 		
 		System.out.println("Hello, World!");
 		
-		// Method: println: Prints line. This prints a line of text (otherwise known as output)
-		// 				    to the console.
+		// Method: println: Prints line. This prints a line of text (otherwise known as output) to the console.
 	}
 
 }
 
-// USEFUL TIPS:
-//   - Every line must end with a semi-colon (;)
-//   - Braces ( { } ) must surround the beginning and end of a block of code
+// ** NOTES **
+//	 - Every line must end with a semi-colon (;)
+//	 - Braces ( { } ) must surround the beginning and end of a block of code
 
 /*
 
-You can also use these to comment out multiple blocks
+	You can also use these to comment out multiple blocks
 
 */
 
-/* INFORMATION ABOUT JAVA */
-/*   - Created in 1995
+/* INFORMATION ABOUT JAVA
+	 - Created in 1995
      - Owned by Oracle
 	 - Object oriented language
 */

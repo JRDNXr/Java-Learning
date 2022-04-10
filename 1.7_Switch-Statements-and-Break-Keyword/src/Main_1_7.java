@@ -1,3 +1,4 @@
+
 // |=========================================|
 // |   SWITCH STATEMENTS AND BREAK KEYWORD   |
 // |=========================================|
@@ -28,13 +29,13 @@ public class Main_1_7 {
 			System.out.println("Thursday");
 			
 		case 5:
-			System.out.println("Friday");
+			System.out.println("Friday"); // Output: Friday
 			
 		case 6:
-			System.out.println("Saturday");
+			System.out.println("Saturday"); // Output: Saturday
 			
 		case 7:
-			System.out.println("Sunday");
+			System.out.println("Sunday"); // Output: Sunday
 		}
 		
 		System.out.print("\n");
@@ -66,7 +67,7 @@ public class Main_1_7 {
 			break;
 			
 		case 5:
-			System.out.println("Friday");
+			System.out.println("Friday"); // Output: Friday
 			break;
 			
 		case 6:

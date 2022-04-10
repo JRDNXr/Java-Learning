@@ -13,7 +13,7 @@ public class Main_2_2 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(addNumbers(5, 6)); // Output: 11
+		System.out.println(addNumbers(5, 6)); // Output [1]: 11
 		
 		// It's better to use variables as arguments rather than hard coding values (when large scale projects come into play, it will
 		// be easier to navigate and debug code)
@@ -22,7 +22,7 @@ public class Main_2_2 {
 		
 		int sum = addNumbers(1, 2); // A neat way to initialize a variable as an argument for a method
 		
-		System.out.println(sum); // Output: 3
+		System.out.println(sum); // Output [2]: 3
 		
 		// * NOTE: Notice how we are reusing code here (using the addNumbers method to add 2 pairs of numbers on different lines).
 		// This is how large scale projects work as well

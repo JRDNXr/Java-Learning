@@ -27,11 +27,11 @@ public class Main_1_10 {
 		// Index numbers are how we refer to each element in our program
 		
 		String favColour = colours[3]; // Try changing this number. If you enter a number outside the array range, you will receive an error
-		System.out.println("Long way of Fav Colour: " + favColour); // Output: Green
+		System.out.println("Long way of Fav Colour: " + favColour); // Output: Long way of Fav Colour: Green
 		
 		// Or simply:
 		
-		System.out.println("Fav Colour: " + colours[3]); // Output: Green
+		System.out.println("Fav Colour: " + colours[3]); // Output: Fav Colour: Green
 		System.out.print("\n");
 		
 		// You can also use a For-Each Loop to output every element in an array:
@@ -39,6 +39,14 @@ public class Main_1_10 {
 		// String Array
 		for (String colourPrint : colours) {
 			System.out.println(colourPrint);
+			
+			// Output: Red
+			//		   Orange
+			//		   Yellow
+			//		   Green
+			//		   Blue
+			//		   Purple
+			
 		}
 		
 		System.out.print("\n");
@@ -46,6 +54,15 @@ public class Main_1_10 {
 		// int Array
 		for (int evenNumPrint : evenNum) {
 			System.out.println(evenNumPrint);
+			
+			// Output: 2
+			//		   4
+			//		   6
+			//		   8
+			//		   10
+			//		   12
+			//		   14
+			
 		}
 		
 		System.out.print("\n");

@@ -21,9 +21,9 @@ public class Main_2_4 {
 //		System.out.println("double: " + myNum2);
 //	}
 	
-	// Above we created 2 methods that add different integer types
+	// Above we created 2 methods that add different integer types. This works, however, there is a more efficient way.
 	
-	// Below is the exact same thing, except with a new technique called "Method Overloading"
+	// Below is the exact same thing, except with a new technique called "Method Overloading".
 	
 	static int addNumbers(int x, int y) {
 		return x + y;
@@ -37,8 +37,8 @@ public class Main_2_4 {
 		int myNum1 = addNumbers(8, 5);
 		double myNum2 = addNumbers(4.3, 6.26);
 		
-		System.out.println("int: " + myNum1);
-		System.out.println("double: " + myNum2);
+		System.out.println("int: " + myNum1); // Output: int: 13
+		System.out.println("double: " + myNum2); // Output: double: 10.559999999999999
 	}
 	
 	// We are overloading the addNumbers method. Notice how both methods have the same method name
