@@ -48,6 +48,17 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 
 		System.out.println("1st Object: " + newCar.colour); // Output: 1st Object: Red
 		
+		
+		
+		//////////////////////////////////////////////
+		//  ACCESSING METHODS IN A DIFFERENT CLASS  //
+		//////////////////////////////////////////////
+		
+		// We use the same object "newCar", only this time we will call the "method" in the Car java class.
+		newCar.printSomething(); // Output: You got me!
+		
+		
+		
 		// You can also create multiple objects of the same class:
 		
 		Car newCar2 = new Car();
