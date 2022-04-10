@@ -5,7 +5,11 @@
 
 package Secondary;
 
-public class Main_1_1 {
+public class Main_Secondary_1_1 {
+	
+	public void printSomething() {
+		System.out.println("This is a test!");
+	}
 	
 	public static void main(String[] args) {
 		

@@ -19,8 +19,8 @@ public class Main_2_3 {
 
 	public static void main(String[] args) {
 		
-		// Static means the method or attribute can be accessed without creating an object of the class first
-		// Void means the method does not return any value
+		// Static means the method or attribute can be accessed without creating an object of the class first.
+		// Void means the method does not return any value.
 		
 		myStaticMethod(); // Calls the static method
 		 

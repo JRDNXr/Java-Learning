@@ -19,6 +19,10 @@ public class Main_3_2_4 {
 		
 		// This calls a static method. Notice how it does not require an object to be created.
 		addNumbers(5, 6);
+		
+		// This calls a static method from another class. Again, you do not need to create an object. You can simply call the method
+		// by typing in the class name followed by a period and finally the method name.
+		Employee.printName();
 	}
 	
 }
