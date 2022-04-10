@@ -1,3 +1,8 @@
+
+// |=================================|
+// |   IMPORTS, PACKAGES, AND APIS   |
+// |=================================|
+
 package Main;
 
 	/* 
@@ -8,11 +13,8 @@ package Main;
 		- User-defined Packages (create your own packages). We created "package Main;" to group our class (there's only 1 file, but you get the gist)
 	*/ 
 
-// |=================================|
-// |   IMPORTS, PACKAGES, AND APIS   |
-// |=================================|
-
 import java.util.Scanner; // Imports a class
+import 
 
 public class Main_1_1 {
 	
@@ -30,7 +32,8 @@ public class Main_1_1 {
 			You will learn more about the Scanner class later.
 		 */
 		
-
+		// To import a package, type "package [Name];"
+		// To import an API, type "import [Name];"
 		
 	}
 
