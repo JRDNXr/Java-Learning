@@ -3,27 +3,39 @@
 // |   CLASSES AND OBJECTS   |
 // |=========================|
 
+// Usually, we create different Java files for better code maintainability and organization. However, we can create a class WITHOUT creating a new
+// Java file by using "class".
+// You also cannot make this class "public", since it must match the name of the current Java file.
+// The reason above is another example why you should create separate Java files.
+
+class Test {
+	
+	public void print() {
+		// See Line 91 for more information.
+		System.out.println("This is the same as creating another Java file.");
+	}
+	
+}
+
 public class Main_3_0 { // This is how we create classes (you'll learn about public later)
 	
 	// At minimum the top class must match the name of the Java file
 	
 	/*
-	 
-	 A class is a template for objects.
-	  
-	 An object is an instance of a class.
+		 A class is a template for objects.
+		  
+		 An object is an instance of a class.
+		
+		 When the individual objects are created, they inherit all the variables and methods from the class.
+		
+		 Think of it like this. Everything in Java is associated with classes and objects, along with its attributes and methods.
 	
-	 When the individual objects are created, they inherit all the variables and methods from the class.
-	
-	 Think of it like this. Everything in Java is associated with classes and objects, along with its attributes and methods.
-
-	 For example: in real life, a car is an object. The car has attributes, such as weight and color. It also has methods,
-	 such as drive and brake.
-	 
-	 A Class is like an object constructor, or a "blueprint" for creating objects.
-	 
-	 ** NOTE ** Class name first letter should always be capitalized
-	 
+		 For example: in real life, a car is an object. The car has attributes, such as weight and color. It also has methods,
+		 such as drive and brake.
+		 
+		 A Class is like an object constructor, or a "blueprint" for creating objects.
+		 
+		 ** NOTE ** Class name first letter should always be capitalized.
     */
 	
 	int num;
@@ -75,6 +87,13 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 		// OVERRIDING ATTRIBUTE VALUE
 		anObject.num2 = 90;
 		System.out.println(anObject.num2); // Output: 90
+		
+		
+		// Here is how we can access a method from a class { } WITHIN this Java file. Remember, normally the code here would be in its own
+		// separate Java file. However, we have the ability to keep them all within one file (not recommended, especially for bigger files).
+		
+		Test objectTest = new Test();
+		objectTest.print(); // Output: This is the same as creating another Java file.
 	}
 
 }

@@ -45,4 +45,18 @@ public class Main_2_0 {
 	static void finalExample() {
 		System.out.println("You can reach code here too"); // Output [4]: You can reach code here too
 	}
+	
+	/* ** NOTES **
+	 
+		These notes will go over all different types of method names and keywords that you may see within a Java file.
+		Many of these are talked about in their own tutorials. Refer to them for more information.
+		
+			>> class		- class Test { }					- An alternative to creating another Java file. You can use this to keep all of your
+			 													  code in a single file. Remember, just because the code is written in the same Java
+			 													  File DOES NOT mean that it is accessible by other classes or code. Treat this the
+			 													  same way you would if the code was placed in a different Java File. Used ONLY in
+			 													  class names.
+			
+			>> extends		- class Car extends Vehicle { } 	- A way to "inherit" attributes and methods from a class. Used ONLY in class names.
+	*/
 }

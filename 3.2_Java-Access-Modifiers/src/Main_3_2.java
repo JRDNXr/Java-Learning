@@ -1,7 +1,7 @@
 
-// |====================|
-// |   JAVA MODIFIERS   |
-// |====================|
+// |===========================|
+// |   JAVA ACCESS MODIFIERS   |
+// |===========================|
 
 public class Main_3_2 {
 	
@@ -16,6 +16,7 @@ public class Main_3_2 {
 		//		- default		-	The class is ONLY accessible by classes within the same package. Used for when you don't specify a modifier
 		
 		// ACCESS MODIFIERS. These are used for attributes (variable declaration), methods, and constructors names:
+		// (When used before attributes, we call them "brand" attributes)
 		//		- public		-	Code is accessible for all classes
 		// 		- private		-	Code is ONLY accessible within the declared class
 		//		- default		-	Code is ONLY accessible within the same package. Used when you don't specify a modifier
