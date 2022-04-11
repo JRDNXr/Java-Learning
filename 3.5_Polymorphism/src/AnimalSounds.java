@@ -1,8 +1,10 @@
 
 public class AnimalSounds {
 
-	public void animalSound() {
-		System.out.println("This animal makes the sound: ");
+	public String animalSound() {
+		String regularStatement = "This animal makes the sound: ";
+		
+		return regularStatement;
 	}
 
 }

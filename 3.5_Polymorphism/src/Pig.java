@@ -1,8 +1,10 @@
 
 public class Pig extends AnimalSounds {
 	
-	public void pigSound() {		
-		System.out.println("OINK!");
+	public String pigSound() {
+		String pigNoise = "OINK!";
+		
+		return pigNoise;
 	}
 
 }

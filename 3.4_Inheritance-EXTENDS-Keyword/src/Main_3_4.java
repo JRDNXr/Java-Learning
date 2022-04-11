@@ -26,8 +26,7 @@ public class Main_3_4 extends Vehicle {
     			>> subclass (child) - the class that inherits from another class
     				
     			>> superclass (parent) - the class being inherited from
-				
-			Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+    			
 
 
 			The DIFFERENCES between Inheritance and Polymporphism:
