@@ -5,15 +5,15 @@
 
 public class Main_2_0 {
 	
-	// A method is a block of code which only runs when it is called 
+	// A method is a block of code which only runs when it is called.
 	
-	// You can pass data through a method. These are called parameters
+	// You can pass data through a method. These are called parameters.
 	
-	// Methods are also known as functions
+	// Methods are also known as functions.
 	
-	// Methods are used to reuse code. Write once, reuse multiple times
+	// Methods are used to reuse code. Write once, and reuse multiple times.
 
-	// For now, ignore static and void
+	// For now, ignore static and void.
 	
 	static void saySomething() {
 		System.out.println("Hello, World!.. from a Method!"); // Output [1]: Hello, World!.. from a Method!
@@ -23,12 +23,15 @@ public class Main_2_0 {
 		System.out.println("This is a test"); // Output [2] & [3]: This is a test
 	}
 	
+	public void oneMoreStatement() {
+		System.out.println("A non-static method can also be called!");
+	}
+	
 	public static void main(String[] args) {
 		
 		// You can call a method like this. Don't forget the parentheses ()
 		
 		saySomething(); // Output: Hello, World!.. from a Method!
-		
 		
 		// You can also call a method multiple times
 		
@@ -40,6 +43,17 @@ public class Main_2_0 {
 		// Calling it works the exact same:
 		
 		finalExample(); // Output: You can reach code here too
+		
+		
+		
+		/////////////////
+		//   OBJECTS   //
+		/////////////////
+
+		// We can also call a non-static method within a Java File. You will learn more about objects in Chapter 3.
+		
+		Main_2_0 mainObject = new Main_2_0();
+		mainObject.oneMoreStatement(); // Output [5]: A non-static method can also be called!
 	}
 	
 	static void finalExample() {

@@ -11,7 +11,7 @@ public class Main_3_2 {
 		// 		- Access Modifiers		-	Controls the access level
 		//		- Non-Access Modifiers	-	Does not control the access level, but controls other functionality
 		
-		// ACCESS MODIFIERS. These are used ONLY in class names:
+		// ACCESS MODIFIERS. These are ONLY used in class names:
 		//		- public		-	The class is accessible by any other class
 		//		- default		-	The class is ONLY accessible by classes within the same package. Used for when you don't specify a modifier
 		
@@ -22,7 +22,7 @@ public class Main_3_2 {
 		//		- default		-	Code is ONLY accessible within the same package. Used when you don't specify a modifier
 		//		- protected 	-	Code is ONLY accessible in the same package and subclasses
 		
-		// NON-ACCESS MODIFIERS. These are used ONLY in class names:
+		// NON-ACCESS MODIFIERS. These are ONLY used in class names:
 		// 		- final			-	The class cannot be inherited by other classes
 		//		- abstract		-	The class cannot be used to create objects
 		

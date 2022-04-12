@@ -3,15 +3,15 @@
 // |   CLASSES AND OBJECTS   |
 // |=========================|
 
-// Usually, we create different Java files for better code maintainability and organization. However, we can create a class WITHOUT creating a new
-// Java file by using "class".
-// You also cannot make this class "public", since it must match the name of the current Java file.
+// Usually, we create different Java files for better code maintainability and organization. However, we can create a class WITHOUT creating a
+// new Java file by using "class".
+// You also cannot make this class "public".
 // The reason above is another example why you should create separate Java files.
 
 class Test {
 	
 	public void print() {
-		// See Line 91 for more information.
+		// See Line 92 for more information.
 		System.out.println("This is the same as creating another Java file.");
 	}
 	
@@ -27,8 +27,6 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 		 An object is an instance of a class.
 		
 		 When the individual objects are created, they inherit all the variables and methods from the class.
-		
-		 Think of it like this. Everything in Java is associated with classes and objects, along with its attributes and methods.
 	
 		 For example: in real life, a car is an object. The car has attributes, such as weight and color. It also has methods,
 		 such as drive and brake.
@@ -36,14 +34,17 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 		 A Class is like an object constructor, or a "blueprint" for creating objects.
 		 
 		 ** NOTE ** Class name first letter should always be capitalized.
-    */
+    */ 
 	
 	int num;
 	int num2 = 99;
 	int cost = 30000; // While "cost" is known as a variable, it also has another name given its usage - attribute
 	// Attributes are variables within a class
 	// Attributes are also called Class Attributes or Fields
-	// Attributes / Class attributes are most commonly found outside of methods
+	
+	public void printSomething() {
+		System.out.println("I can print!");
+	}
 	
 	public static void main(String[] args) {
 		
@@ -97,17 +98,18 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 		
 		/* ** NOTES **
 		 
-		These notes will go over all different types of method and class names and keywords that you may see within a Java file.
+		These notes will go over all different types of method and class names and keywords that you may see within a Java File.
 		Many of these are talked about in their own tutorials. Refer to them for more information.
 		
-			>> class		- class Test { }					- An alternative to creating another Java file. You can use this to keep all of your
-			 													  code in a single file. Remember, just because the code is written in the same Java
-			 													  File DOES NOT mean that it is accessible by other classes or code. Treat this the
-			 													  same way you would if the code was placed in a different Java File. Used ONLY in
-			 													  class names.
+			>> class		- class Test { }					- An alternative to creating another Java file. You can use this to keep all of
+																  your code in a single file. Remember, just because the code is written in the
+																  same Java File DOES NOT mean that it is accessible by other classes or code.
+																  Treat this the same way you would if the code was placed in a different Java
+																  File. Exclusive to class names.
 			
-			>> extends		- class Car extends Vehicle { } 	- A way to "inherit" attributes and methods from a class. Used ONLY in class names.
-	*/
+			>> extends		- class Car extends Vehicle { } 	- A way to "inherit" attributes and methods from a class. Exclusive to class
+																  names.
+		*/
 	}
 
 }
