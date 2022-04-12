@@ -1,4 +1,8 @@
 
+// |==================|
+// |   POLYMORPHISM   |
+// |==================|
+
 public class Duck extends AnimalSounds {
 
 	public String duckSound() {

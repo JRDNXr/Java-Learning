@@ -1,4 +1,8 @@
 
+// |==================|
+// |   POLYMORPHISM   |
+// |==================|
+
 public class AnimalSounds {
 
 	public String animalSound() {

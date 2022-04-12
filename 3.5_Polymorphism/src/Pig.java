@@ -1,4 +1,8 @@
 
+// |==================|
+// |   POLYMORPHISM   |
+// |==================|
+
 public class Pig extends AnimalSounds {
 	
 	public String pigSound() {

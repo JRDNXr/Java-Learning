@@ -42,11 +42,16 @@ public class Main_1_1 {
 			import package.name.*;   	 // Import the whole package (use an asterisk (*) to select all in a package)
 		
 			You will learn more about the Scanner class later.
-		 */
+		*/
 		
 		// To organize this file into a package, type "package [Name];"
 		// To import an API, type "import [Name];"
 		// To import a user built package, type "import [Name];"
+		
+		// ** NOTE ** Think of importing a user built package like this:
+		// 			  Each package is a folder (Main and Secondary). When you import, you are saying the contents of your Secondary folder are
+		//			  available in your Main folder. It's as if the files are already there in the Main folder, however, we organized them in
+		//			  different folders.
 		
 		// This calls the main method in the Secondary Package > Main_Secondary_1_1.java.
 		Main_Secondary_1_1.main(args); // Output: Hello, JRDN D'Souza!
