@@ -15,14 +15,10 @@ class OuterClass {
 }
 
 // You can make inner classes private, protected, or static (among others).
+// ** NOTE ** This is NOT the same thing as making a method private, protected, or static.
+// ** NOTE ** Just like static attributes and methods, a static inner class does not have access to members of the outer class.
 
-
-public class Main_3_6 {
-	int g = 50;
-
-	private int print() {
-		return g;
-	}
+public class Main_3_7 {
 	
 	public static void main(String[] args) {
 		
@@ -42,7 +38,9 @@ public class Main_3_6 {
 		System.out.println(outerObject2.a); // Output: 99
 		System.out.println(outerInnerObject2.b); // Output: 100
 		
-		Main_3_6 exampleObject = new Main_3_6();
-		System.out.println(exampleObject.print());
+		
+		// Read OuterClass2.java file for more information on the below code snippet.
+		// outerObject2.printSomething(); <-- This works too!
+		outerInnerObject2.inheritExample(); // Output: Printed
 	}
 }

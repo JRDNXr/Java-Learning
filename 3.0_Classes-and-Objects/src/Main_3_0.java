@@ -42,17 +42,24 @@ public class Main_3_0 { // This is how we create classes (you'll learn about pub
 	// Attributes are variables within a class
 	// Attributes are also called Class Attributes or Fields
 	
+	// More information on Line 59
 	public void printSomething() {
 		System.out.println("I can print!");
 	}
 	
 	public static void main(String[] args) {
 		
-		// You can call objects from classes anywhere. Below is how we call an object from a class (the data ("cost") is contained within this file
+		// Below is how we call an object from a class (the data ("cost") is contained within this file
 		// but not within this block scope)
 		Main_3_0 anObject = new Main_3_0(); // This piece of code creates a new object of a class
 		
-		System.out.println(anObject.cost); // Output: 30000
+		System.out.println(anObject.cost); // Output [1]: 30000
+		
+		
+		// You've seen how to create an object for attributes in the same within a public class { } but not within a method.
+		// The example below uses the same object "anObject" to call the method.
+		// Recall that an object "inherits" all of a classes' attributes AND methods. This is why you cannot invoke a method like you
+		anObject.printSomething(); // Output: I can print!
 		
 		
 		
