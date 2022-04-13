@@ -1,4 +1,8 @@
 
+// |================================|
+// |   SCANNER CLASS (USER INPUT)   |
+// |================================|
+
 // Import the Scanner class.
 import java.util.Scanner;
 
@@ -19,7 +23,7 @@ public class Main_5_3 {
 		// Next, print a line of text. This will make it easier to see your cursor.
 		// Don't forget a space after the colons (text: ).
 		// ** NOTE ** We use "print" instead of "println". This will allow the user to type on the same line as the printed text.
-		System.out.print("Write some text: ");
+		System.out.print("Write some text: "); // Output: Write some text: 
 		//System.out.println("Write some text: "); <-- Try it out and see!
 		
 		// This next line is important! Using the String identifier "text", we want to fill it with a value.
@@ -30,7 +34,7 @@ public class Main_5_3 {
 		System.out.print("\n");
 		
 		// Finally, we print out the user input:
-		System.out.println(text);
+		System.out.println(text); // Output: [text]
 		
 		// There's also a bunch of other ways to capture user input.
 		/*
