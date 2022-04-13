@@ -45,8 +45,7 @@ public class Main_1_9 {
 		// FOR-EACH LOOPS //
 		////////////////////
 		
-		// The program above can be simplified with a For-Each Loop
-		// These loops are used exclusively with Arrays (more on that in 1.10_Arrays)
+		// The program above can be simplified with a For-Each Loop:
 		
 		String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 		
@@ -60,13 +59,13 @@ public class Main_1_9 {
 		}
 		
 		// Essentially, the "str : cars" is acting like this: str <-- cars.
-		// Each element in the car array is being copied to the str identifier
-		// Then, in the for loop scope, we are printing out str to the console
-		// The loop then repeats itself until all elements in the cars array have been printed out
+		// Each element in the car array is being copied to the str identifier.
+		// Then, in the for loop scope, we are printing out str to the console.
+		// The loop then repeats itself until all elements in the cars array have been printed out.
 		
 		System.out.print("\n");
 		
-		// This is an alternative method to the one above. The one above is still the recommended version
+		// This is an alternative method to the one above. The one above is still the recommended version.
 		for (i = 0; i < cars.length; i++) {
 			System.out.println(cars[i]);
 			
