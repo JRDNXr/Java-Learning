@@ -7,13 +7,13 @@ public class Main_2_6_1 {
 	
 	public static void main(String[] args) {
 		
-		// print() and println() are methods
+		// print() and println() are both methods.
 		// Both accomplish the same task - printing output to the console. The difference here is that print() will print a line, and that's it.
-		// println() will print a line and add a newline (ENTER) at the end. This moves the cursor to a new line
+		// println() will print a line and add a newline (ENTER) at the end. This moves the cursor to a new line.
 		//
-		// There is also printf(), which is used to print floating numbers (float and double) to the console IF there is also String text
+		// There is also printf(), which is used to print floating numbers (float and double) to the console IF there is also String text.
 		
-		// The following examples of Concatenation
+		// The following examples of Concatenation:
 		
 		int x = 2, y = 3;
 		String result = x + "" + y;
