@@ -24,17 +24,38 @@ public class Main_4_1 {
 		// Here is how we add values to an ArrayList:
 		cars.add("Audi"); // Element number: 0
 		cars.add("Lexus"); // Element number: 1
-		cars.add("Toyota"); // Element number: 2
+		cars.add("Volvo"); // Element number: 2
+		cars.add("Toyota"); // Element number: 3
 		
-		System.out.println(cars); // Output: [Audi, Lexus, Toyota]
+		System.out.println("LIST 1: " + cars); // Output: LIST 1: [Audi, Lexus, Volvo, Toyota]
+		System.out.print("\n");
 		
 		// We can call values based off their element number.
+		System.out.println("ELEMENT 2: " + cars.get(2)); // Output: ELEMENT 2: Volvo
+		System.out.print("\n");
+		
+		// We can remove values in an ArrayList.
+		cars.remove(1); // Removes Lexus
+		
+		// As you can see from the print statements, when we remove an element from an ArrayList, Java automatically re-shuffles the ENTIRE list.
+		// Audi stays the same at element 0, but Volvo and Toyota move up one element number. Volvo takes element 1, and Toyota takes element 2.
+		// Element 3 releases back into memory, and will generate an error if called.
+		
+		System.out.println("LIST 2: " + cars); // Output: LIST 2: [Audi, Volvo, Toyota]
+		System.out.print("\n");
+		
+		System.out.println(cars.get(0)); // Output: Audi
+		System.out.println(cars.get(1)); // Output: Volvo
 		System.out.println(cars.get(2)); // Output: Toyota
+		// System.out.println(cars.get(3)); <-- This will generate an error.
 		
 		
-		// Unlike arrays, we can change values of an ArrayList.
-		cars.set(2, "BMW");
+		System.out.println(cars.get(1));
 		
-		System.out.println(cars.get(2)); // Output: BMW
+		
+		// This will not work. Since we removed the element 2, 
+//		cars.add("Volvo");
+//		
+//		System.out.println(cars.get(1)); // Output: Volvo
 	}
 }
