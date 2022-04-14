@@ -85,6 +85,20 @@ public class Main_4_1 {
 		
 		
 		
+		// You can remove all values from an ArrayList.
+		cars.clear();
+		
+		// Since the ArrayList exists, the below line will not generate an error. However, it will not display any values since all of them have
+		// been cleared.
+		System.out.println(cars); // Output: []
+		
+		
+		
+		// You can sort through an ArrayList using the class Collections().
+		// Check out Main_5_4.java for more information.
+		
+		
+		
 		//////////////////////////
 		//   OTHER DATA TYPES   //
 		//////////////////////////
@@ -99,7 +113,7 @@ public class Main_4_1 {
 		numbers.add(1);
 		numbers.add(4);
 		
-		// Below are all the ways you can create an ArrayList.
+		// Below are all the other data types that you can have with an ArrayList.
 		ArrayList<Byte> btye = new ArrayList<Byte>();
 		
 		ArrayList<Short> shrot = new ArrayList<Short>();
@@ -111,20 +125,6 @@ public class Main_4_1 {
 		ArrayList<Double> duoble = new ArrayList<Double>();
 		
 		ArrayList<Boolean> Boolaen = new ArrayList<Boolean>();
-		
-		
-		
-		
-		// You can sort through an ArrayList using the class Collections().
-		
-		
-		// You can remove all values from an ArrayList.
-		cars.clear();
-		
-		// Since the ArrayList exists, the below line will not generate an error. However, it will not display any values since all of them have
-		// been cleared.
-		System.out.println(cars); // Output: []
-		
 		
 	}
 }
