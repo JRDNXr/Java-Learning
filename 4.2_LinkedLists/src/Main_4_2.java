@@ -1,6 +1,6 @@
 
 // |=================|
-// |   LINKED LIST   |
+// |   LINKEDLISTS   |
 // |=================|
 
 // Import LinkedList

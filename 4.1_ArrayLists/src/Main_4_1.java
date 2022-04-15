@@ -1,7 +1,7 @@
 
-// |=================|
-// |   ARRAY LISTS   |
-// |=================|
+// |================|
+// |   ARRAYLISTS   |
+// |================|
 
 // Import the Java Array List class.
 import java.util.ArrayList;
