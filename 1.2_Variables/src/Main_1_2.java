@@ -28,6 +28,7 @@ public class Main_1_2 {
 		// Notice the difference here between declaring an int and the rest of the variable types
 		// You can declare multiple variables from a single variable type. Simply append a comma at the end of the variable value, as shown
 		// Integers, floats, and boolean do not require any quotes 
+		// Integer b = 2, k = 17; <-- This also works to declare or initialize an integer.
 		int b = 2, k = 17;
 		
 		// Declares an integer value (a whole number)
