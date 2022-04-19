@@ -34,7 +34,8 @@ public class Main_4_2 {
 			** NOTE ** Use an ArrayList for storing and accessing data, and LinkedList to manipulate data.
 		*/
 		
-		// The syntax for creating a LinkedList is the same as an ArrayList (with the obvious difference of ArrayList now being LinkedList):
+		// The syntax for creating a LinkedList is the same as an ArrayList (with the obvious difference of ArrayList now being LinkedList).
+		// This creates a LinkedList object called "cars":
 		LinkedList<String> colours = new LinkedList<String>();
 		
 		colours.add("Red");
@@ -44,10 +45,14 @@ public class Main_4_2 {
 		colours.add("Blue");
 		colours.add("Purple");
 		
+		// Print all values in a LinkedList:
+		// You can also use a for-loop and a for-each loop.
 		System.out.println(colours); // Output: [Red, Orange, Yellow, Green, Blue, Purple]
-		
 		System.out.print("\n");
 		
+		
+		// LinkedLists can access the same methods as an ArrayList:
+		// get(), remove(), set(), and size() (among a trove of others).
 		
 		// LinkedLists have several unique methods that ArrayLists do not. This makes them more efficient with certain operations:
 		
@@ -101,7 +106,7 @@ public class Main_4_2 {
 		// ** NOTE ** Remember, we use Integer, NOT int for LinkedList.
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		
-		// Below are all the other data types that you can have with a LinkedList.
+		// Below are all the other data types that you can have with a LinkedList:
 		LinkedList<Byte> btye = new LinkedList<Byte>();
 		
 		LinkedList<Short> shrot = new LinkedList<Short>();

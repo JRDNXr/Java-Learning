@@ -18,10 +18,10 @@ public class Main_4_1 {
 			removed from an ArrayList whenever you want. The syntax is also slightly different:
 		*/
 		
-		// This creates an ArrayList object called "cars".
+		// This creates an ArrayList object called "cars":
 		ArrayList<String> cars = new ArrayList<String>();
 		
-		// Here is how we add values to an ArrayList:
+		// Add values to an ArrayList:
 		cars.add("Audi"); // Element number: 0
 		cars.add("Lexus"); // Element number: 1
 		cars.add("Volvo"); // Element number: 2
@@ -108,7 +108,7 @@ public class Main_4_1 {
 		// ** NOTE ** Remember, we use Integer, NOT int for ArrayList.
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		
-		// Below are all the other data types that you can have with an ArrayList.
+		// Below are all the other data types that you can have with an ArrayList:
 		ArrayList<Byte> btye = new ArrayList<Byte>();
 		
 		ArrayList<Short> shrot = new ArrayList<Short>();
