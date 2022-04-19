@@ -49,7 +49,7 @@ public class Main_1_2_2 {
 		System.out.println("Is x greater than y?: " + result); // Output: Is x greater than y?: false
 		System.out.println(10 > 9); // Output: true
 		
-		// Check out "1.5_Operators" for more. You can use a whole bunch with Boolean
+		// Check out "1.5_Operators" for more. You can use a whole bunch with Boolean.
 		System.out.print("Is x equal to 10?: ");
 		System.out.println(x == 10); // Output: Is x equal to 10?: true
 		

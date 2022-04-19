@@ -27,29 +27,29 @@ public class Main_1_2 {
 		
 		// Notice the difference here between declaring an int and the rest of the variable types.
 		// You can declare multiple variables from a single variable type. Simply append a comma at the end of the variable value, as shown.
-		// Integers, floats, and boolean do not require any quotes 
+		// Integers, floats, and boolean do not require any quotes.
+		// Declares an integer value (a whole number).
 		int b = 2, k = 17;
 		
-		// Declares an integer value (a whole number)
 		
+		// Declares a float value (floating point numbers, such as decimals).
 		float c = 5.99f;
 		
-		// Declares a float value (floating point numbers, such as decimals)
 		
+		// Declares a char value (single characters). Must be surrounded with single quotes.
+		// You can also declare with ASCII values. These are numbers that correlate to symbols, letters, and numbers on a keyboard.
+		// If you declare a char with an ASCII value, no quotes are needed.
 		char d = 'A';
 		
-		// Declares a char value (single characters). Must be surrounded with single quotes
-		// You can also declare with ASCII values. These are numbers that correlate to symbols, letters, and numbers on a keyboard
-		// If you declare a char with an ASCII value, no quotes are needed
-				
+			
+		// Declares a boolean value (true or false).
 		boolean e = true;
 		
-		// Declares a boolean value (true or false)
 		
+		// Final variables cannot be changed (they are "final").
+		// Also known as unchangeable and read-only variables.
 		final String j = "JRDN";
 		
-		// Final variables cannot be changed (they are "final")
-		// Also known as unchangeable and read-only variables
 		
 		System.out.println(a); // Output: Hello
 		System.out.println(b); // Output: 2
