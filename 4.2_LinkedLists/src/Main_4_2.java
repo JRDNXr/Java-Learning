@@ -4,6 +4,7 @@
 // |=================|
 
 // Import LinkedList
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Main_4_2 {
@@ -20,8 +21,8 @@ public class Main_4_2 {
 
 
 			How an ArrayList works:
-			The ArrayList class has a regular array inside it. When an element is added, it is placed into the array. If the array is not big enough,
-			a new, larger array is created to replace the old one and the old one is removed.
+			The ArrayList class has a regular array inside it. When an element is added, it is placed into the array. If the array is not big
+			enough, a new, larger array is created to replace the old one and the old one is removed.
 
 
 			How the LinkedList works:
@@ -76,9 +77,11 @@ public class Main_4_2 {
 		// Remove the last value (Element x):
 		colours.removeLast();
 		
+		
 		// System.out.println(colours.get(7)); <-- Will give an error
 		System.out.println(colours.get(5)); // Output: Purple
 		System.out.print("\n");
+		
 		
 		// Get the first value in a list:
 		System.out.println(colours.getFirst()); // Output: Red
@@ -86,5 +89,29 @@ public class Main_4_2 {
 		
 		// Get the last value in a list:
 		System.out.println(colours.getLast()); // Output: Purple
+		
+		
+		
+		//////////////////////////
+		//   OTHER DATA TYPES   //
+		//////////////////////////
+		
+		// To create another data type, just specify the type within the carrot symbols (< >).
+		// Below we created a LinkedList with an Integer data type:
+		// ** NOTE ** Remember, we use Integer, NOT int for LinkedList.
+		LinkedList<Integer> numbers = new LinkedList<Integer>();
+		
+		// Below are all the other data types that you can have with a LinkedList.
+		LinkedList<Byte> btye = new LinkedList<Byte>();
+		
+		LinkedList<Short> shrot = new LinkedList<Short>();
+		
+		LinkedList<Long> lnog = new LinkedList<Long>();
+		
+		LinkedList<Float> flaot = new LinkedList<Float>();
+		
+		LinkedList<Double> duoble = new LinkedList<Double>();
+		
+		LinkedList<Boolean> Boolaen = new LinkedList<Boolean>();
 	}
 }

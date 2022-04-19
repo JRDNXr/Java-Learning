@@ -108,11 +108,6 @@ public class Main_4_1 {
 		// ** NOTE ** Remember, we use Integer, NOT int for ArrayList.
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		
-		numbers.add(3);
-		numbers.add(5);
-		numbers.add(1);
-		numbers.add(4);
-		
 		// Below are all the other data types that you can have with an ArrayList.
 		ArrayList<Byte> btye = new ArrayList<Byte>();
 		
