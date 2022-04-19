@@ -48,10 +48,6 @@ public class Main_4_4 {
 		System.out.println(cars.contains("Porsche")); // Output: false
 		System.out.print("\n");
 		
-	
-		
-		
-		
 		
 		// Get the size of a HashSet:
 		System.out.println("Size: " + cars.size()); // Output: Size: 3

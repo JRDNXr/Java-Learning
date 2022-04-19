@@ -7,8 +7,8 @@ public class Main_1_2 {
 
 	public static void main(String[] args) {
 		/* ** NOTES **
-			 - Declaration: Tells the compiler about the existence of an entity
-		     - Initialization: Assigning a value to a variable
+			 - Declaration: Tells the compiler about the existence of an entity.
+		     - Initialization: Assigning a value to a variable.
 		     - Identifiers: Variable names such as a, b or more descriptive such as firstName and lastName
 		     		>> Names can contain letters, digits, underscores, and dollar signs
     				>> Names must begin with a letter

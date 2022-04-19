@@ -3,9 +3,9 @@
 // |   GETTER AND SETTER METHODS (THIS KEYWORD)   |
 // |==============================================|
 
-public class Main_2_6_6 {
+public class Main_2_7 {
 
-	// Declared a Class Attribute with a data type String called "colour"
+	// Declared a Class Attribute with a data type String called "colour".
 	String colour;
 	
 	// Getter Method
@@ -36,7 +36,7 @@ public class Main_2_6_6 {
 	
 	public static void main(String[] args) {
 		
-		Main_2_6_6 objectColour = new Main_2_6_6();
+		Main_2_7 objectColour = new Main_2_7();
 		
 		objectColour.setColour("Green");
 		System.out.println("Chosen Colour: " + objectColour.getColour()); // Output: Chosen Colour: Green
