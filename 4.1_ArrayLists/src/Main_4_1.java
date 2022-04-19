@@ -105,7 +105,8 @@ public class Main_4_1 {
 		
 		// To create another data type, just specify the type within the carrot symbols (< >).
 		// Below we created an ArrayList with an Integer data type:
-		// ** NOTE ** Remember, we use Integer, NOT int for ArrayList.
+		// ** NOTE ** Remember, we use Integer, NOT int for ArrayList. This is because Collection objects, such as ArrayList, cannot use
+		// 		  	  primitive types.
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		
 		// Below are all the other data types that you can have with an ArrayList:
@@ -120,6 +121,8 @@ public class Main_4_1 {
 		ArrayList<Double> duoble = new ArrayList<Double>();
 		
 		ArrayList<Boolean> Boolaen = new ArrayList<Boolean>();
+		
+		ArrayList<Character> cahr = new ArrayList<Character>();
 		
 	}
 }

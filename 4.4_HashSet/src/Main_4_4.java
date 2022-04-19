@@ -73,7 +73,8 @@ public class Main_4_4 {
 		
 		// To create another data type, just specify the type within the carrot symbols (< >).
 		// Below we created a HashSet with an Integer data type:
-		// ** NOTE ** Remember, we use Integer, NOT int for HashSet.
+		// ** NOTE ** Remember, we use Integer, NOT int for HashSet. This is because Collection objects, such as HashSet, cannot use
+		// 			  primitive types.
 		HashSet<Integer> numbers = new HashSet<Integer>();
 		
 		// Below are all the other data types that you can have with a HashSet:
@@ -88,6 +89,8 @@ public class Main_4_4 {
 		HashSet<Double> duoble = new HashSet<Double>();
 		
 		HashSet<Boolean> Boolaen = new HashSet<Boolean>();
+		
+		HashSet<Character> cahr = new HashSet<Character>();
 	}
 
 }

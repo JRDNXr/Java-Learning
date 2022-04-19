@@ -96,9 +96,10 @@ public class Main_4_3 {
 		//////////////////////////
 		
 		// To create another data type, just specify the type within the carrot symbols (< >).
-		// Below we created a HashMap with an Integer data type:
-		// ** NOTE ** Remember, we use Integer, NOT int for HashMap.
-		HashMap<Integer, Integer> numbers = new HashMap<Integer, Integer>();
+		// Below we created a HashMap with a String and Integer data type (you can also store different types).
+		// ** NOTE ** Remember, we use Integer, NOT int for HashMap. This is because Collection objects, such as HashMap, cannot use
+		// 			  primitive types.
+		HashMap<String, Integer> numbers = new HashMap<String, Integer>();
 		
 		// Below are all the other data types that you can have with a HashMap:
 		HashMap<Byte, Byte> btye = new HashMap<Byte, Byte>();
@@ -113,6 +114,7 @@ public class Main_4_3 {
 		
 		HashMap<Boolean, Boolean> Boolaen = new HashMap<Boolean, Boolean>();
 		
+		HashMap<Character, Character> cahr = new HashMap<Character, Character>();
 	}
 
 }

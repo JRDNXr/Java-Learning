@@ -103,7 +103,8 @@ public class Main_4_2 {
 		
 		// To create another data type, just specify the type within the carrot symbols (< >).
 		// Below we created a LinkedList with an Integer data type:
-		// ** NOTE ** Remember, we use Integer, NOT int for LinkedList.
+		// ** NOTE ** Remember, we use Integer, NOT int for LinkedList. This is because Collection objects, such as LinkedList, cannot use
+		// 			  primitive types.
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		
 		// Below are all the other data types that you can have with a LinkedList:
@@ -118,5 +119,7 @@ public class Main_4_2 {
 		LinkedList<Double> duoble = new LinkedList<Double>();
 		
 		LinkedList<Boolean> Boolaen = new LinkedList<Boolean>();
+		
+		LinkedList<Character> cahr = new LinkedList<Character>();
 	}
 }
