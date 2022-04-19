@@ -7,7 +7,10 @@ public class Main_1_2_2 {
 	
 	public static void main(String[] args) {
 		
-		// The following are primitive data types
+		// The following are primitive data types:
+		
+		// Stores text, whitespace, and characters.
+		String string = "Test";
 		
 		// byte = 1 byte
 		// Stores whole numbers from -128 to 127
@@ -39,7 +42,7 @@ public class Main_1_2_2 {
 		// boolean = 1 byte
 		boolean boo = false;
 		
-		// You can use boolean statements in variables and console output
+		// You can use boolean statements in variables and console output.
 		int x = 10, y = 20;
 		boolean result = x > y;
 		
@@ -58,9 +61,9 @@ public class Main_1_2_2 {
 		
 		
 		
-		///////////////
-		// EXPONENTS //
-		///////////////
+		///////////////////
+		//   EXPONENTS   //
+		///////////////////
 		
 		// You can place an upper case or lower case e to add an exponent
 		float fl1 = 35e8f;
@@ -71,9 +74,9 @@ public class Main_1_2_2 {
 		
 		
 		
-		///////////////////
-		// DECIMAL SPOTS //
-		///////////////////
+		///////////////////////
+		//   DECIMAL SPOTS   //
+		///////////////////////
 		
 		float f1 = 100f / 6.0f; // 16.66666667. Rounds up to 16
 		double d1 = 100.00 / 3.00; // 33.333333. Rounds down to 33  |  Using .00 to force the answer to be a decimal. Otherwise, without
@@ -90,22 +93,43 @@ public class Main_1_2_2 {
 		
 		
 		
-		///////////////////////////////////////////////////////////
-		// INFORMATION ON PRIMITIVE AND NON-PRIMITIVE DATA TYPES //
-		///////////////////////////////////////////////////////////
+		///////////////////////////////////////////////////////////////
+		//   INFORMATION ON PRIMITIVE AND NON-PRIMITIVE DATA TYPES   //
+		///////////////////////////////////////////////////////////////
 		
 		/*
 			Non-primitive data types are called reference types because they refer to objects.
 
 		  	The main difference between primitive and non-primitive data types are:
-    	    	- Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+    	    	- Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by
+    	    	- Java (except for String).
     			- Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
     			- A primitive type always has a value, while non-primitive types can be null.
     			- A primitive type starts with a lower case letter, while non-primitive types starts with an upper case letter.
     			- The size of a primitive type depends on the data type, while non-primitive types have all the same size.
 
-		  	Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc. You will learn more about these in a later chapter.
+		  	Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc.
 		*/
+		
+		// The following are non-primitive data types:
+		
+		String str;
+		
+		Byte bite;
+		
+		Short shr;
+		
+		Integer inter;
+		
+		Long lng;
+		
+		Float flat;
+		
+		Double dbl;
+		
+		Boolean bool;
+		
+		Character chra;
 	}
 
 }

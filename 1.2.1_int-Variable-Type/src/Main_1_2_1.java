@@ -10,6 +10,7 @@ public class Main_1_2_1 {
 		// This will assign one value to multiple variables
 		// int declares w, x, y, and z. They have no initializations
 		
+		// Integer; <-- You can declare variables using this initializer as well. More information in 1.2.2_Data-Types.
 		int w, x, y, z;
 		x = y = z = 3;
 		

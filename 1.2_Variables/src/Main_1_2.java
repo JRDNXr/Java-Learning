@@ -18,17 +18,16 @@ public class Main_1_2 {
     				>> Reserved words (like Java keywords, such as int or boolean) cannot be used as names
 		*/
 		
-		// It's best practice to declare and initialize variables at the top of a program
-		// Any time you declare a variable, you start by using a "Data Type". String, int, etc. are all Data Types
+		// It's best practice to declare and initialize variables at the top of a program.
+		// Any time you declare a variable, you start by using a "Data Type". String, int, etc. are all Data Types.
 		
 		String a = "Hello";
 		
 		// Declares a string value (a word or line of text)
 		
-		// Notice the difference here between declaring an int and the rest of the variable types
-		// You can declare multiple variables from a single variable type. Simply append a comma at the end of the variable value, as shown
+		// Notice the difference here between declaring an int and the rest of the variable types.
+		// You can declare multiple variables from a single variable type. Simply append a comma at the end of the variable value, as shown.
 		// Integers, floats, and boolean do not require any quotes 
-		// Integer b = 2, k = 17; <-- This also works to declare or initialize an integer.
 		int b = 2, k = 17;
 		
 		// Declares an integer value (a whole number)
