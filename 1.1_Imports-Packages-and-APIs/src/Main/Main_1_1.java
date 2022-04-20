@@ -13,8 +13,12 @@ package Main;
 		- User-defined Packages (create your own packages). We created "package Main;" to group our class (there's only 1 file, but you get the idea)
 	*/ 
 
-import java.util.Scanner; // Imports a class
-import Secondary.Main_Secondary_1_1; // Imports a user built package
+// import java.util.*; // Imports the ENTIRE java util package (this includes Scanner).
+import java.util.Scanner; // Imports a single Java built class
+//import Secondary.*; // This and the below option both work. However, one can be more efficient than the other.
+import Secondary.Main_Secondary_1_1; // This one is the more efficient one in our use case.
+
+// ** NOTE ** It's best practice to import only what you need, as it makes your program more efficient. 
 
 public class Main_1_1 {
 	
@@ -37,16 +41,13 @@ public class Main_1_1 {
 		
 			The library is divided into packages and classes. Meaning you can either import a single class (along with its methods and
 			attributes), or a whole package that contain all the classes that belong to the specified package.
-		
-			import package.name.Class;   // Import a single class
-			import package.name.*;   	 // Import the whole package (use an asterisk (*) to select all in a package)
-		
-			You will learn more about the Scanner class later.
 		*/
 		
-		// To organize this file into a package, type "package [Name];"
-		// To import an API, type "import [Name];"
-		// To import a user built package, type "import [Name];"
+		// To import a single Java built class, type: "import [package name].[class];".  Eg. "import java.util.Scanner".
+		// To import a Java built package (a collection of similar classes), type "import [package name].*;".  Eg. "import java.util.*;".
+		
+		// To import a single User built class, type "import [package name].[class];".  Eg. "import Secondary.Main_Secondary_1_1".
+		// To import a User built package, type "import [package name].*;"  Eg. "import Secondary.*;"
 		
 		// ** NOTE ** Think of importing a user built package like this:
 		// 			  Each package is a folder (Main and Secondary). When you import, you are saying the contents of your Secondary folder are
