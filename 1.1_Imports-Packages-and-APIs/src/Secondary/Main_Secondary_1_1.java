@@ -11,8 +11,7 @@ public class Main_Secondary_1_1 {
 		System.out.println("This is a test!");
 	}
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		System.out.println("Hello, JRDN D'Souza!");
 		
 	}

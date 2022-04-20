@@ -78,11 +78,11 @@ public class Main_1_7 {
 			System.out.println("Sunday");
 			break;
 		
-		default: // This creates a way to "error trap" your program. More on that in 
+		default: // This creates a way to "error trap" your program.
 			System.out.println("Not a valid number");
 		}
 		
-		// Default specifies code to run if there is no match in any case statement
+		// Default specifies code to run if there is no match in any case statement.
 		
 	}
 

@@ -38,9 +38,9 @@ public class Main_5_2 {
 		
 		
 		// Customizing Date and Time (Wednesday, March 23, 2022 at 12:00)
-		DateTimeFormatter formatter_hourMin = DateTimeFormatter.ofPattern("h:mm a");
+		DateTimeFormatter formatter_hourMin = DateTimeFormatter.ofPattern("H:mm a");
 		String time = currentDateTime.format(formatter_hourMin);
-		System.out.println(fullDate + " at " + time); // Output: [day of the week, month dayNumber, year] at [current time]
+		System.out.println(fullDate + " at " + time); // Output: [day of the week, month dayNumber, year] at [current time] [a.m. / p.m.]
 	}
 }
 
